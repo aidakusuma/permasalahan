@@ -39,17 +39,27 @@ Data Pipeline:
 
 ## Business Dashboard
 
-Dashboard ini akan memberikan pemantauan langsung terhadap faktor-faktor yang mempengaruhi tingkat attrition dan metrik terkait lainnya. Beberapa elemen yang akan ditampilkan di dashboard termasuk:
-
-- Prediksi Attrition: Menampilkan proporsi karyawan yang berisiko tinggi keluar berdasarkan hasil model prediksi.
-- Kepuasan Kerja: Grafik yang menunjukkan tingkat kepuasan kerja karyawan berdasarkan survei atau feedback yang dikumpulkan.
-- Durasi Kerja: Rata-rata masa kerja karyawan di perusahaan, dengan kategori berdasarkan usia, jabatan, atau divisi.
-- Gaji dan Tunjangan: Visualisasi mengenai distribusi gaji dan tunjangan yang mungkin mempengaruhi kepuasan dan keputusan untuk bertahan.
-- Analisis Departemen: Menampilkan departemen dengan tingkat attrition tertinggi dan karyawan yang berisiko tinggi.
+Dashboard ini memantau faktor-faktor yang memengaruhi tingkat attrition di perusahaan Jaya Jaya Maju, dengan elemen berikut:
+- Jumlah Karyawan: Total karyawan dan distribusi berdasarkan job role.
+- Kepuasan Kerja: Rata-rata kepuasan terhadap lingkungan kerja, keseimbangan kerja, dan pekerjaan.
+- Tingkat Attrition: Posisi dengan tingkat attrition tertinggi, seperti Laboratory Technician dan Sales Executive.
+- Durasi Kerja: Rata-rata masa kerja berdasarkan job role untuk mengidentifikasi posisi dengan turnover cepat.
 
 ## Conclusion
 
-Proyek ini berhasil mengidentifikasi faktor-faktor yang mempengaruhi tingkat attrition di Jaya Jaya Maju, serta membangun model prediksi yang dapat membantu perusahaan untuk mengantisipasi karyawan yang berisiko keluar. Dengan menggunakan dashboard yang telah dikembangkan, manajer HR dapat memantau faktor-faktor yang memengaruhi karyawan dan mengambil langkah preventif yang lebih cepat. Hasil dari model ini memberikan wawasan yang lebih jelas tentang apa yang perlu diperbaiki untuk mengurangi tingkat attrition dan meningkatkan kepuasan serta retensi karyawan.
+Berdasarkan analisis data, didapat:
+- Rata-rata Kepuasan Kerja dan Lingkungan:
+
+Rata-rata kepuasan terhadap lingkungan kerja adalah 2.72, sedangkan rata-rata keseimbangan pekerjaan dan kehidupan (Work-Life Balance) sedikit lebih tinggi di angka 2.76, dan rata-rata kepuasan pekerjaan adalah 2.73.
+Nilai ini menunjukkan tingkat kepuasan yang cenderung rendah. Kepuasan kerja yang rendah sering kali berkaitan dengan tinggi rendahnya motivasi dan keinginan untuk meninggalkan perusahaan.
+- Rasio Attrition Berdasarkan Job Role:
+
+Laboratory Technician menunjukkan tingkat attrition yang tertinggi, diikuti oleh Sales Executive dan Research Scientist. Peran-peran ini mungkin membutuhkan evaluasi lebih lanjut terkait tekanan kerja, insentif, atau faktor lingkungan yang menyebabkan karyawan di posisi ini lebih cenderung untuk keluar.
+Posisi lain dengan attrition lebih rendah seperti Healthcare Representative dan Manager mungkin menunjukkan lebih banyak stabilitas dalam pekerjaan mereka.
+- Rata-rata Lama Bekerja Berdasarkan Job Role:
+
+Posisi Manager memiliki rata-rata lama bekerja yang cukup tinggi (14.43 tahun), yang mengindikasikan tingkat retensi yang lebih baik pada level manajerial.
+Di sisi lain, posisi seperti Sales Representative dan Laboratory Technician memiliki rata-rata lama bekerja yang relatif rendah (2.92 dan 5.02 tahun), menunjukkan tingkat turnover yang lebih tinggi pada posisi-posisi ini.
 
 ### Rekomendasi Action Items (Optional)
 
@@ -60,6 +70,6 @@ Action Item 2:
 Menerapkan kebijakan yang lebih fleksibel dan mendukung keseimbangan kehidupan kerja (work-life balance) untuk karyawan yang berisiko tinggi, terutama di departemen dengan tingkat attrition tertinggi.
 
 Action Item 3:
-Melakukan pelatihan dan pengembangan kepemimpinan untuk manajer SDM dan lini depan guna meningkatkan komunikasi dengan karyawan dan menciptakan lingkungan kerja yang lebih inklusif dan mendukung.
+Meningkatkan keterlibatan manajer dengan karyawan, mengadakan sesi one-on-one untuk memahami tantangan mereka, dan memberikan dukungan untuk kemajuan karir.
 
 Dengan rekomendasi action items ini, diharapkan perusahaan dapat menurunkan tingkat attrition, meningkatkan kepuasan kerja, dan mempertahankan talenta terbaik untuk kesuksesan jangka panjang.
