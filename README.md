@@ -22,9 +22,33 @@ Pembuatan Model Prediksi Attrition: Mengembangkan model machine learning untuk m
 
 ### Persiapan
 
-Data karyawan yang mencakup informasi seperti usia, jenis kelamin, status perkawinan, lama bekerja, gaji, jabatan, tingkat pendidikan, lokasi kerja, dan faktor-faktor lain yang relevan.
+Data karyawan yang mencakup informasi seperti usia, jenis kelamin, status perkawinan, lama bekerja, gaji, jabatan, tingkat pendidikan, lokasi kerja, dan faktor-faktor lain yang relevan. terdapat pada link berikut ini https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
 
 Setup environment:
+
+1. Install pipenv
+```
+pip install pipenv
+```
+
+2. Create an environment 
+```
+pipenv install
+```
+
+3. Install dependencies
+```
+pipenv install -r requirements.txt
+```
+
+4. Running predict
+```
+Input the data of the examined employee in the data dictionary
+```
+
+```
+python prediction.py
+```
 
 Tools yang Digunakan:
 - Python: Untuk analisis data dan pengembangan model.
@@ -38,6 +62,7 @@ Data Pipeline:
 - Menyusun fitur-fitur yang relevan untuk model prediksi dan integrasi dengan dashboard.
 
 ## Business Dashboard
+Dashboard bisa diakses pada link berikut: https://public.tableau.com/views/Dashboard_17334715041000/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 Dashboard ini memantau faktor-faktor yang memengaruhi tingkat attrition di perusahaan Jaya Jaya Maju, dengan elemen berikut:
 - Jumlah Karyawan: Total karyawan dan distribusi berdasarkan job role.
